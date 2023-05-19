@@ -5,14 +5,16 @@ class Auth extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('templates/auth/header');
+		$data['title'] = 'Login';
+		$this->load->view('templates/auth/header', $data);
 		$this->load->view('pages/auth/login');
 		$this->load->view('templates/auth/footer');
 	}
 
 	public function register()
 	{
-		$this->load->view('templates/auth/header');
+		$data['title'] = 'Register';
+		$this->load->view('templates/auth/header', $data);
 		$this->load->view('pages/auth/register');
 		$this->load->view('templates/auth/footer');
 	}
