@@ -31,15 +31,15 @@
   border-radius: 0.5rem!important;
   background-color: #f9fafb!important;
 }
-.product {
-  width: 300px!important;
-}
 .select2-selection {
   border: 1px solid #cbd5e1!important;
   border-radius: 0.5rem!important;
   background-color: #f9fafb!important;
 }
 
+.product {
+  width: 300px !important;
+}
 
 .select2-results__option {
   font-size: 14px;

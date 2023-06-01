@@ -5,9 +5,9 @@ $(document).ready(function () {
 
 const shorcut = () => {
   document.addEventListener('keydown', (e) => {
-    if(e.key === '+'){
+    if (e.key === '+') {
       addItem();
-    }else if(e.key === 'Enter'){
+    } else if (e.key === 'Enter') {
       checkout();
     }
   })
